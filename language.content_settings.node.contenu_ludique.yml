@@ -1,0 +1,11 @@
+uuid: 0b341224-c745-40f3-b136-1595b3278185
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.contenu_ludique
+id: node.contenu_ludique
+target_entity_type_id: node
+target_bundle: contenu_ludique
+default_langcode: site_default
+language_alterable: false

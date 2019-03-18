@@ -1,0 +1,21 @@
+uuid: e124d1dc-a337-49f3-ad48-ec0ab39bac75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.activite
+  module:
+    - datetime
+id: node.activite.field_date
+field_name: field_date
+entity_type: node
+bundle: activite
+label: Date
+description: 'Ajoutez la date et l''heure de l''activité ici, pour la date vous pouvez la choisir dans le calendrier qui s''affiche,  et l''heure devrait être dans ce format: HH:MM.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,23 @@
+uuid: 8dd69266-1f38-4f5d-8bc2-3553605574d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_h5p
+    - node.type.contenu_educatif
+  module:
+    - h5p
+id: node.contenu_educatif.field_h5p
+field_name: field_h5p
+entity_type: node
+bundle: contenu_educatif
+label: H5P
+description: 'choisissez le type de contenu éducatif à ajouter, puis remplissez les nouveaux champs.'
+required: false
+translatable: false
+default_value:
+  -
+    h5p_content_id: null
+default_value_callback: ''
+settings: {  }
+field_type: h5p

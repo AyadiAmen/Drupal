@@ -1,0 +1,23 @@
+uuid: a5c97fda-c3a4-4c01-ab10-ddc53b76863d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lien
+    - node.type.contenu_ludique
+  module:
+    - link
+id: node.contenu_ludique.field_lien
+field_name: field_lien
+entity_type: node
+bundle: contenu_ludique
+label: Lien
+description: 'Lien vers un jeu sur un site Web tiers'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
