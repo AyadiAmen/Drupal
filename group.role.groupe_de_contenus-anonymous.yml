@@ -1,0 +1,14 @@
+uuid: 801eca48-3c78-4994-9949-a2d63dda669c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.groupe_de_contenus
+id: groupe_de_contenus-anonymous
+label: Anonymous
+weight: -102
+internal: true
+audience: anonymous
+group_type: groupe_de_contenus
+permissions_ui: true
+permissions: {  }

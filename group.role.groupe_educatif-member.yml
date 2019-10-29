@@ -1,0 +1,19 @@
+uuid: 0285541c-3925-4e5f-a04e-b77840d423b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.groupe_educatif
+id: groupe_educatif-member
+label: Member
+weight: -100
+internal: true
+audience: member
+group_type: groupe_educatif
+permissions_ui: true
+permissions:
+  - 'view group'
+  - 'leave group'
+  - 'view group_membership content'
+  - 'view group_node:contenu_educatif entity'
+  - 'view unpublished group_node:contenu_educatif entity'

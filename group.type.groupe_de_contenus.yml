@@ -1,0 +1,10 @@
+uuid: 5205bae8-83e2-4b1d-9c82-fa04f0c4578a
+langcode: fr
+status: true
+dependencies: {  }
+id: groupe_de_contenus
+label: 'groupe de contenus'
+description: ''
+creator_membership: true
+creator_wizard: true
+creator_roles: {  }

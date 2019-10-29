@@ -1,0 +1,17 @@
+uuid: 40ab1b5a-746b-4295-9dc0-47ed281790c2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.groupe_de_contenus
+  enforced:
+    config:
+      - user.role.Eleve
+id: groupe_de_contenus-8cd9da887
+label: Élève
+weight: 4
+internal: true
+audience: outsider
+group_type: groupe_de_contenus
+permissions_ui: false
+permissions: {  }

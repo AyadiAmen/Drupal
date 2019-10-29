@@ -1,0 +1,22 @@
+uuid: d65e3415-0833-45eb-b8f8-1c6daa93bf19
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.pages_miiix
+  module:
+    - text
+id: node.pages_miiix.body
+field_name: body
+entity_type: node
+bundle: pages_miiix
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

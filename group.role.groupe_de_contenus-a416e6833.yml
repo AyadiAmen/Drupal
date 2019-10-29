@@ -1,0 +1,17 @@
+uuid: 55c456cd-4ebc-47b8-9631-0672b8322a86
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.groupe_de_contenus
+  enforced:
+    config:
+      - user.role.administrator
+id: groupe_de_contenus-a416e6833
+label: Administrator
+weight: 2
+internal: true
+audience: outsider
+group_type: groupe_de_contenus
+permissions_ui: false
+permissions: {  }

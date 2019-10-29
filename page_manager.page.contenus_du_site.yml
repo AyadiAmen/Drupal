@@ -1,0 +1,12 @@
+uuid: a272b460-52a9-4918-91d1-a35be3cee4e7
+langcode: fr
+status: true
+dependencies: {  }
+id: contenus_du_site
+label: 'Contenus du site'
+description: 'Page listant les contenus du site'
+use_admin_theme: false
+path: '/Contenus du site'
+access_logic: and
+access_conditions: {  }
+parameters: {  }

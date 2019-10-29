@@ -1,0 +1,19 @@
+uuid: f4816ddc-b0f5-499f-9f21-97af512467a2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.questionnaire
+id: node.questionnaire.field_description
+field_name: field_description
+entity_type: node
+bundle: questionnaire
+label: Description
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

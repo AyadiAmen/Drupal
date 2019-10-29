@@ -1,0 +1,19 @@
+uuid: a5587035-5885-414f-910c-4175c6007cc3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.groupe_educatif
+    - node.type.contenu
+  module:
+    - gnode
+    - node
+id: group_content_type_a24907034e5e3
+label: 'groupe éducatif: Group node (Contenu)'
+description: 'Adds <em class="placeholder">Contenu</em> content to groups both publicly and privately.'
+group_type: groupe_educatif
+content_plugin: 'group_node:contenu'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: true

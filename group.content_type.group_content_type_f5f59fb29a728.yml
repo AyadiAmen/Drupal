@@ -1,0 +1,19 @@
+uuid: f876a351-c3a7-42c8-8a3d-a94cf9a9c07f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.groupe_de_contenus
+    - node.type.contenu
+  module:
+    - gnode
+    - node
+id: group_content_type_f5f59fb29a728
+label: 'groupe de contenus: Group node (Contenu)'
+description: 'Adds <em class="placeholder">Contenu</em> content to groups both publicly and privately.'
+group_type: groupe_de_contenus
+content_plugin: 'group_node:contenu'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: true

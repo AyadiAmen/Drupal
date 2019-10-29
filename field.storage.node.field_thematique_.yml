@@ -1,15 +1,16 @@
-uuid: eafc8cba-43f6-4c4d-b954-1d91f6ffccf7
+uuid: 57386ee8-4686-461d-a858-fa8e0bf594a1
 langcode: fr
 status: true
 dependencies:
   module:
     - node
-id: node.field_description
-field_name: field_description
+    - taxonomy
+id: node.field_thematique_
+field_name: field_thematique_
 entity_type: node
-type: string_long
+type: entity_reference
 settings:
-  case_sensitive: false
+  target_type: taxonomy_term
 module: core
 locked: false
 cardinality: -1

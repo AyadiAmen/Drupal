@@ -1,0 +1,14 @@
+uuid: 7d7a5714-5336-4e0a-b566-e29845b10f7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.groupe_educatif
+id: groupe_educatif-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: groupe_educatif
+permissions_ui: true
+permissions: {  }

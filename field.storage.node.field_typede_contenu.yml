@@ -1,15 +1,16 @@
-uuid: eafc8cba-43f6-4c4d-b954-1d91f6ffccf7
+uuid: eb82482f-d350-4365-8dc4-8f6f1bcfd605
 langcode: fr
 status: true
 dependencies:
   module:
     - node
-id: node.field_description
-field_name: field_description
+    - taxonomy
+id: node.field_typede_contenu
+field_name: field_typede_contenu
 entity_type: node
-type: string_long
+type: entity_reference
 settings:
-  case_sensitive: false
+  target_type: taxonomy_term
 module: core
 locked: false
 cardinality: -1

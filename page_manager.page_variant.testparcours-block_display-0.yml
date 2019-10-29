@@ -1,0 +1,95 @@
+uuid: d173d9af-4ba8-46f2-9438-7b9476f83cc9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - page_manager.page.testparcours
+    - views.view.alternative_parcours_block
+    - views.view.copie_de_recommendations
+    - views.view.parcours_de_ref
+    - views.view.parcoursalternatiflisteliens_bloc
+    - views.view.parcoursdereferencelisteliens_bloc
+    - views.view.recommendationtextbloc
+  module:
+    - views
+id: testparcours-block_display-0
+label: 'Block page'
+variant: block_display
+variant_settings:
+  blocks:
+    8232278f-6a81-4d9a-903e-ebe1d6b46def:
+      id: 'views_block:parcours_de_ref-block_1'
+      label: 'Parcours de référence'
+      provider: views
+      label_display: visible
+      views_label: 'Parcours de référence'
+      items_per_page: none
+      region: bottom
+      weight: -10
+      uuid: 8232278f-6a81-4d9a-903e-ebe1d6b46def
+      context_mapping: {  }
+    2e978e59-8dba-472c-97b0-e260a8240406:
+      id: 'views_block:alternative_parcours_block-block_1'
+      label: 'Parcours alternatif'
+      provider: views
+      label_display: visible
+      views_label: 'Parcours alternatif'
+      items_per_page: none
+      region: bottom
+      weight: -6
+      uuid: 2e978e59-8dba-472c-97b0-e260a8240406
+      context_mapping: {  }
+    b1dff65d-9d1a-4113-98d9-6e3a343cd900:
+      id: 'views_block:parcoursalternatiflisteliens_bloc-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: bottom
+      weight: -5
+      uuid: b1dff65d-9d1a-4113-98d9-6e3a343cd900
+      context_mapping: {  }
+    96b01d7f-cf53-49bb-9b12-39d1f1e1380e:
+      id: 'views_block:parcoursdereferencelisteliens_bloc-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: bottom
+      weight: -9
+      uuid: 96b01d7f-cf53-49bb-9b12-39d1f1e1380e
+      context_mapping: {  }
+    5e43a84c-3e53-454f-96b9-6c364e76b8cc:
+      id: 'views_block:copie_de_recommendations-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: '20'
+      region: bottom
+      weight: -7
+      uuid: 5e43a84c-3e53-454f-96b9-6c364e76b8cc
+      context_mapping: {  }
+    38f9ec2f-75e0-4ec2-be57-2f91d54025b7:
+      id: 'views_block:recommendationtextbloc-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: bottom
+      weight: -8
+      uuid: 38f9ec2f-75e0-4ec2-be57-2f91d54025b7
+      context_mapping: {  }
+  id: block_display
+  uuid: 88a16b25-ad90-4525-ac9e-d52c3d1b44ba
+  label: null
+  weight: 0
+  page_title: Parcours
+page: testparcours
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

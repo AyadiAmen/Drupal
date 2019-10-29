@@ -1,0 +1,14 @@
+uuid: b1a57ebf-9cdd-410b-a7fa-78406de75b08
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.groupe_de_contenus
+id: groupe_de_contenus-member
+label: Membre
+weight: -100
+internal: true
+audience: member
+group_type: groupe_de_contenus
+permissions_ui: true
+permissions: {  }

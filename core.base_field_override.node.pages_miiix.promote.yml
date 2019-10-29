@@ -1,0 +1,22 @@
+uuid: a6089b98-a7a7-4f8a-8990-a588aca74878
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.pages_miiix
+id: node.pages_miiix.promote
+field_name: promote
+entity_type: node
+bundle: pages_miiix
+label: 'Promu en page d''accueil'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

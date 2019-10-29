@@ -1,0 +1,18 @@
+uuid: c51916f9-7427-4118-8b25-bb60befcbb9a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Contenu
+type: contenu
+description: 'Ajoutez du contenu ici, vous pouvez ajouter toutes sortes de contenus: texte, fichiers (pdf, docx, ..), liens, etc.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

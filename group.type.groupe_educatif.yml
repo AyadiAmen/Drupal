@@ -1,0 +1,10 @@
+uuid: 0019f8a0-cc84-48cb-ac1d-1a33bda8674e
+langcode: en
+status: true
+dependencies: {  }
+id: groupe_educatif
+label: 'groupe éducatif'
+description: ''
+creator_membership: true
+creator_wizard: true
+creator_roles: {  }

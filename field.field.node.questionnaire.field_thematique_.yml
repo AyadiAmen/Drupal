@@ -1,0 +1,29 @@
+uuid: ad4c2dba-9d1d-4ac6-ac29-74a39a304d02
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_thematique_
+    - node.type.questionnaire
+    - taxonomy.vocabulary.thematique
+id: node.questionnaire.field_thematique_
+field_name: field_thematique_
+entity_type: node
+bundle: questionnaire
+label: 'Thématique '
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      thematique: thematique
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

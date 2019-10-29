@@ -1,0 +1,22 @@
+uuid: 4f882da3-1746-4b86-80dd-994bdd9c9ee3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description_res
+    - node.type.contenu
+  module:
+    - text
+id: node.contenu.field_description_res
+field_name: field_description_res
+entity_type: node
+bundle: contenu
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,12 @@
+uuid: d85d8824-5da3-4184-8e6d-eb409c97bb4b
+langcode: fr
+status: true
+dependencies: {  }
+id: chartview
+label: ChartView
+description: ''
+use_admin_theme: false
+path: /ChartView
+access_logic: and
+access_conditions: {  }
+parameters: {  }

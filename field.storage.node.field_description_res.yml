@@ -1,18 +1,18 @@
-uuid: 897a261b-2399-485b-8093-cbde711cde13
+uuid: 663174a8-99d3-4603-8032-a21a44d71522
 langcode: fr
 status: true
 dependencies:
   module:
-    - h5p
     - node
-id: node.field_h5p
-field_name: field_h5p
+    - text
+id: node.field_description_res
+field_name: field_description_res
 entity_type: node
-type: h5p
+type: text_with_summary
 settings: {  }
-module: h5p
+module: text
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

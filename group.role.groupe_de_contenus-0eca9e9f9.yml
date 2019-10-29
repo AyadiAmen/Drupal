@@ -1,0 +1,17 @@
+uuid: 1e48e6fe-e28c-41c4-8d18-039e876ef2ee
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.groupe_de_contenus
+  enforced:
+    config:
+      - user.role.Professeur
+id: groupe_de_contenus-0eca9e9f9
+label: Professeur
+weight: 3
+internal: true
+audience: outsider
+group_type: groupe_de_contenus
+permissions_ui: false
+permissions: {  }

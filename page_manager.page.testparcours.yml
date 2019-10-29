@@ -1,0 +1,12 @@
+uuid: 653c929a-199f-439c-bc6d-dcab05036c93
+langcode: fr
+status: true
+dependencies: {  }
+id: testparcours
+label: testparcours
+description: ''
+use_admin_theme: false
+path: /parcours/Parcours
+access_logic: and
+access_conditions: {  }
+parameters: {  }

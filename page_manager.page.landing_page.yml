@@ -1,0 +1,12 @@
+uuid: 2806b549-5b9a-4a6c-be1a-304944b1ef6e
+langcode: fr
+status: true
+dependencies: {  }
+id: landing_page
+label: 'Landing Page'
+description: 'Page d''accueil du site '
+use_admin_theme: false
+path: /Accueil
+access_logic: and
+access_conditions: {  }
+parameters: {  }

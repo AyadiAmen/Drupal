@@ -1,0 +1,14 @@
+uuid: 808de4c4-981c-4871-877c-90dae160f7a0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.groupe_de_contenus
+id: groupe_de_contenus-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: groupe_de_contenus
+permissions_ui: true
+permissions: {  }

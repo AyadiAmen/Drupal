@@ -1,0 +1,8 @@
+uuid: 1dda7678-cb77-4625-99e6-9c6d5b0e6b02
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Objectif d''apprentissage'
+vid: objectif_d_apprentissage
+description: ''
+weight: 0

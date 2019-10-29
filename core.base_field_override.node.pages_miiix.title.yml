@@ -1,0 +1,18 @@
+uuid: d7ce30da-29bf-4d53-a251-75ce8bcc2295
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.pages_miiix
+id: node.pages_miiix.title
+field_name: title
+entity_type: node
+bundle: pages_miiix
+label: Titre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

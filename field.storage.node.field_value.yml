@@ -1,18 +1,19 @@
-uuid: eafc8cba-43f6-4c4d-b954-1d91f6ffccf7
+uuid: 6af7600d-feb3-4348-ae11-ff0b83a6be59
 langcode: fr
 status: true
 dependencies:
   module:
     - node
-id: node.field_description
-field_name: field_description
+id: node.field_value
+field_name: field_value
 entity_type: node
-type: string_long
+type: decimal
 settings:
-  case_sensitive: false
+  precision: 10
+  scale: 2
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false
