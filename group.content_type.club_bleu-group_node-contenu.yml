@@ -1,0 +1,19 @@
+uuid: 3864205f-6979-44b7-af67-66ecace94e9a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.club_bleu
+    - node.type.contenu
+  module:
+    - gnode
+    - node
+id: club_bleu-group_node-contenu
+label: 'Club Bleu: Group node (Contenu)'
+description: 'Adds <em class="placeholder">Contenu</em> content to groups both publicly and privately.'
+group_type: club_bleu
+content_plugin: 'group_node:contenu'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: true

@@ -1,0 +1,17 @@
+uuid: 808a1f8b-38f5-49f6-b549-8fa50d5342e1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.club_bleu
+  enforced:
+    config:
+      - user.role.administrator
+id: club_bleu-a416e6833
+label: Administrateur
+weight: 2
+internal: true
+audience: outsider
+group_type: club_bleu
+permissions_ui: false
+permissions: {  }

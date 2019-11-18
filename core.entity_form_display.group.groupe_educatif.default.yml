@@ -1,0 +1,47 @@
+uuid: 35fff7fd-42de-4431-afa4-5825575ffb02
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.group.groupe_educatif.field_desc
+    - group.type.groupe_educatif
+  module:
+    - path
+    - text
+id: group.groupe_educatif.default
+targetEntityType: group
+bundle: groupe_educatif
+mode: default
+content:
+  field_desc:
+    weight: 31
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  label:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  uid: true

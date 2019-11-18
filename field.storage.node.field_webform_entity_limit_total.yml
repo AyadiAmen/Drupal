@@ -1,0 +1,22 @@
+uuid: 1b3ca64a-1fc5-4f15-890f-700ab2b0b234
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: hD32uFpD3DXD-UJCuKQORD-RJBODlQDmdUSTOBhcoO8
+id: node.field_webform_entity_limit_total
+field_name: field_webform_entity_limit_total
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

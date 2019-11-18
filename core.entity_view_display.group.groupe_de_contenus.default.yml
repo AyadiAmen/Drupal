@@ -1,0 +1,31 @@
+uuid: 37b4332e-024a-419f-bc15-b36dcc9ea76d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.groupe_de_contenus
+id: group.groupe_de_contenus.default
+targetEntityType: group
+bundle: groupe_de_contenus
+mode: default
+content:
+  label:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden:
+  changed: true
+  created: true
+  langcode: true

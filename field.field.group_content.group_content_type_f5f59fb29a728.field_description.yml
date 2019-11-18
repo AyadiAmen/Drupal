@@ -1,0 +1,22 @@
+uuid: f488426f-f01a-401b-bbdc-4340512f0e1c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.group_content.field_description
+    - group.content_type.group_content_type_f5f59fb29a728
+  module:
+    - text
+id: group_content.group_content_type_f5f59fb29a728.field_description
+field_name: field_description
+entity_type: group_content
+bundle: group_content_type_f5f59fb29a728
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,14 @@
+uuid: 78bbf969-d4f6-4883-aa20-f30f6fbd9805
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.club_bleu
+id: club_bleu-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: club_bleu
+permissions_ui: true
+permissions: {  }

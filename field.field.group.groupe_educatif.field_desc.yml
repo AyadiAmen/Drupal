@@ -1,0 +1,22 @@
+uuid: 5fc52aaf-d0b0-4869-a112-e62099e469a5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.group.field_desc
+    - group.type.groupe_educatif
+  module:
+    - text
+id: group.groupe_educatif.field_desc
+field_name: field_desc
+entity_type: group
+bundle: groupe_educatif
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

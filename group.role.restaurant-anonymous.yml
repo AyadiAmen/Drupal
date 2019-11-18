@@ -1,0 +1,14 @@
+uuid: b8363d9d-f5fb-41f9-813b-d73e26000c47
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.restaurant
+id: restaurant-anonymous
+label: Anonymous
+weight: -102
+internal: true
+audience: anonymous
+group_type: restaurant
+permissions_ui: true
+permissions: {  }

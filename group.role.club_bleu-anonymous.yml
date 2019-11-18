@@ -1,0 +1,14 @@
+uuid: 637612b2-79fd-43ef-a6e7-1f9912751dd5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.club_bleu
+id: club_bleu-anonymous
+label: Anonymous
+weight: -102
+internal: true
+audience: anonymous
+group_type: club_bleu
+permissions_ui: true
+permissions: {  }

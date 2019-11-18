@@ -1,0 +1,29 @@
+uuid: e5a84e00-9f18-4b97-a13c-65528c3d3dbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field__utilisateurs_cibles
+    - node.type.contenu
+    - taxonomy.vocabulary.utilisateurs_cibles
+id: node.contenu.field__utilisateurs_cibles
+field_name: field__utilisateurs_cibles
+entity_type: node
+bundle: contenu
+label: ' utilisateurs ciblés'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      utilisateurs_cibles: utilisateurs_cibles
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

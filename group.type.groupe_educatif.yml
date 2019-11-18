@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 id: groupe_educatif
-label: 'groupe éducatif'
+label: 'Groupe éducatif'
 description: ''
 creator_membership: true
 creator_wizard: true

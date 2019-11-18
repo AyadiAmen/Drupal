@@ -1,0 +1,17 @@
+uuid: 70259c6d-338a-4bf8-8682-39809861ba44
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.restaurant
+  enforced:
+    config:
+      - user.role.manager
+id: restaurant-443ed8e03
+label: Manager
+weight: 3
+internal: true
+audience: outsider
+group_type: restaurant
+permissions_ui: false
+permissions: {  }

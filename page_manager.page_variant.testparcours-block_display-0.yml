@@ -87,7 +87,7 @@ variant_settings:
   uuid: 88a16b25-ad90-4525-ac9e-d52c3d1b44ba
   label: null
   weight: 0
-  page_title: Parcours
+  page_title: 'Mon parcours'
 page: testparcours
 weight: 0
 selection_criteria: {  }

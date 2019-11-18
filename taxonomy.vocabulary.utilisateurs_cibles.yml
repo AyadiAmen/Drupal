@@ -1,0 +1,8 @@
+uuid: 88df9dee-0e73-435d-8332-3236cd3b0fcc
+langcode: en
+status: true
+dependencies: {  }
+name: Accessibilité
+vid: utilisateurs_cibles
+description: ''
+weight: 0

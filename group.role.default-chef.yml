@@ -1,0 +1,48 @@
+uuid: 328a9bd7-4686-49fd-9e1d-5e36cae245de
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.default
+id: default-chef
+label: chef
+weight: 4
+internal: false
+audience: member
+group_type: default
+permissions_ui: true
+permissions:
+  0: 'view group'
+  1: 'leave group'
+  2: 'view group_membership content'
+  3: 'access group_node overview'
+  4: 'create group_node:contenu entity'
+  5: 'delete any group_node:contenu entity'
+  6: 'delete own group_node:contenu entity'
+  7: 'update any group_node:contenu entity'
+  8: 'update own group_node:contenu entity'
+  9: 'view group_node:contenu entity'
+  10: 'view unpublished group_node:contenu entity'
+  11: 'delete own group_node:questionnaire content'
+  12: 'update own group_node:questionnaire content'
+  13: 'view group_node:questionnaire content'
+  14: 'delete group'
+  15: 'administer members'
+  16: 'update own group_membership content'
+  17: 'delete any group_node:contenu content'
+  18: 'delete own group_node:contenu content'
+  19: 'update any group_node:contenu content'
+  20: 'update own group_node:contenu content'
+  21: 'view group_node:contenu content'
+  22: 'create group_node:questionnaire entity'
+  23: 'delete any group_node:questionnaire entity'
+  24: 'delete own group_node:questionnaire entity'
+  25: 'update any group_node:questionnaire entity'
+  26: 'update own group_node:questionnaire entity'
+  27: 'view group_node:questionnaire entity'
+  28: 'view unpublished group_node:questionnaire entity'
+  29: 'delete any group_node:questionnaire content'
+  30: 'update any group_node:questionnaire content'
+  31: 'access content overview'
+  32: 'edit group'
+  34: 'administer group'

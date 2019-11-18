@@ -1,0 +1,23 @@
+uuid: de751d32-47c7-4f41-b413-98e240d232c3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.groupe_de_contenus
+id: group.groupe_de_contenus.default
+targetEntityType: group
+bundle: groupe_de_contenus
+mode: default
+content:
+  label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  path: true
+  uid: true

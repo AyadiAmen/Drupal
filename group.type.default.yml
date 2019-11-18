@@ -1,0 +1,10 @@
+uuid: b51cefdc-bc1f-4582-b123-62023c16558e
+langcode: fr
+status: true
+dependencies: {  }
+id: default
+label: 'Par défaut'
+description: ''
+creator_membership: true
+creator_wizard: true
+creator_roles: {  }

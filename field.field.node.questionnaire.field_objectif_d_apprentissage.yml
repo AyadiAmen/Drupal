@@ -1,0 +1,29 @@
+uuid: 3bc92dc0-a4c9-4968-9d2c-2218ad34cb5d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_objectif_d_apprentissage
+    - node.type.questionnaire
+    - taxonomy.vocabulary.objectif_d_apprentissage
+id: node.questionnaire.field_objectif_d_apprentissage
+field_name: field_objectif_d_apprentissage
+entity_type: node
+bundle: questionnaire
+label: 'Objectif d''apprentissage'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      objectif_d_apprentissage: objectif_d_apprentissage
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

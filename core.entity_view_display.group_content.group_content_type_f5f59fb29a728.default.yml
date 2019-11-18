@@ -1,0 +1,25 @@
+uuid: cc4b3942-f814-406c-9b42-89f1c07af6b9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.group_content.group_content_type_f5f59fb29a728.field_description
+    - group.content_type.group_content_type_f5f59fb29a728
+  module:
+    - text
+id: group_content.group_content_type_f5f59fb29a728.default
+targetEntityType: group_content
+bundle: group_content_type_f5f59fb29a728
+mode: default
+content:
+  field_description:
+    weight: -4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  entity_id: true
+  langcode: true
+  uid: true

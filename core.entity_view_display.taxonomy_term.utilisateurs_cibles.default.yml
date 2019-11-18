@@ -1,0 +1,22 @@
+uuid: 6f20d799-8554-4fd3-8c50-8afd4807b8dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.utilisateurs_cibles
+  module:
+    - text
+id: taxonomy_term.utilisateurs_cibles.default
+targetEntityType: taxonomy_term
+bundle: utilisateurs_cibles
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

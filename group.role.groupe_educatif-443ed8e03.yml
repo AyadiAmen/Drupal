@@ -1,0 +1,17 @@
+uuid: cf5ff537-ff82-4b17-a439-a9c9d9f840c8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.groupe_educatif
+  enforced:
+    config:
+      - user.role.manager
+id: groupe_educatif-443ed8e03
+label: Manager
+weight: 3
+internal: true
+audience: outsider
+group_type: groupe_educatif
+permissions_ui: false
+permissions: {  }

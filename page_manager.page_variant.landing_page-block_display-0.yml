@@ -1,0 +1,35 @@
+uuid: 438a6457-2f76-48c6-bd51-dca6691b9997
+langcode: fr
+status: true
+dependencies:
+  config:
+    - page_manager.page.landing_page
+    - views.view.lobby
+  module:
+    - views
+id: landing_page-block_display-0
+label: 'Bienvenue sur MiiiX'
+variant: block_display
+variant_settings:
+  blocks:
+    2cb72711-21ce-43f7-8749-4066de5427df:
+      id: 'views_block:lobby-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: top
+      weight: 0
+      uuid: 2cb72711-21ce-43f7-8749-4066de5427df
+      context_mapping: {  }
+  id: block_display
+  uuid: 94f549f6-74e8-47b1-b4ac-73e3ed79e055
+  label: null
+  weight: 0
+  page_title: ''
+page: landing_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

@@ -1,0 +1,29 @@
+uuid: 75b6fda2-1188-4177-a6e8-a11969afdf5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_de_contenu
+    - node.type.questionnaire
+    - taxonomy.vocabulary.type_de_contenu
+id: node.questionnaire.field_type_de_contenu
+field_name: field_type_de_contenu
+entity_type: node
+bundle: questionnaire
+label: 'Type de contenu'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      type_de_contenu: type_de_contenu
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,5 +1,5 @@
-uuid: de08f582-a922-4dda-a359-d9d28744b092
-langcode: fr
+uuid: 1479af16-edc2-426e-bb0e-55dbe6e88fdc
+langcode: en
 status: true
 dependencies:
   module:
@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Questionnaire
 type: questionnaire
-description: 'Ajoutez toutes sortes de questionnaires ici, examens, évaluations, etc.'
+description: 'Utiliser Questionnaire pour toutes sortes de questionnaires, enquêtes, quiz.'
 help: ''
 new_revision: true
 preview_mode: 1

@@ -1,0 +1,17 @@
+uuid: b2299528-2d25-451d-b741-2af410e8df9c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.default
+  enforced:
+    config:
+      - user.role.administrator
+id: default-a416e6833
+label: Administrateur
+weight: 2
+internal: true
+audience: outsider
+group_type: default
+permissions_ui: false
+permissions: {  }

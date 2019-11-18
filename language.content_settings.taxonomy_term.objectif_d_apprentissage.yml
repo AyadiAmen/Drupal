@@ -1,0 +1,11 @@
+uuid: 26272b95-67d2-411b-a6db-60293ae001d2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.objectif_d_apprentissage
+id: taxonomy_term.objectif_d_apprentissage
+target_entity_type_id: taxonomy_term
+target_bundle: objectif_d_apprentissage
+default_langcode: site_default
+language_alterable: false

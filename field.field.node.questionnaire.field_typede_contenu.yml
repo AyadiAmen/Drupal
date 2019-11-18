@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_typede_contenu
     - node.type.questionnaire
-    - taxonomy.vocabulary.types_de_contenus
 id: node.questionnaire.field_typede_contenu
 field_name: field_typede_contenu
 entity_type: node
@@ -19,8 +18,7 @@ default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'
   handler_settings:
-    target_bundles:
-      types_de_contenus: types_de_contenus
+    target_bundles: {  }
     sort:
       field: name
       direction: asc

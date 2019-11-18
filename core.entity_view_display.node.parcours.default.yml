@@ -1,0 +1,42 @@
+uuid: a5012ae6-a03f-44be-997d-8423bceefd5e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.parcours.field_description
+    - field.field.node.parcours.field_lien_vers_les_contenus
+    - node.type.parcours
+  module:
+    - link
+    - user
+id: node.parcours.default
+targetEntityType: node
+bundle: parcours
+mode: default
+content:
+  field_description:
+    type: basic_string
+    weight: 1
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_lien_vers_les_contenus:
+    type: link
+    weight: 2
+    region: content
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

@@ -1,0 +1,17 @@
+uuid: 42ceb721-0b3d-4009-bbc5-94229ed34d6a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.club_bleu
+  enforced:
+    config:
+      - user.role.manager
+id: club_bleu-443ed8e03
+label: Manager
+weight: 3
+internal: true
+audience: outsider
+group_type: club_bleu
+permissions_ui: false
+permissions: {  }

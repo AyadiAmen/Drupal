@@ -1,5 +1,5 @@
-uuid: f4816ddc-b0f5-499f-9f21-97af512467a2
-langcode: fr
+uuid: dc8a4a18-df42-486f-b858-b93e52a075ef
+langcode: en
 status: true
 dependencies:
   config:
@@ -10,9 +10,9 @@ field_name: field_description
 entity_type: node
 bundle: questionnaire
 label: Description
-description: ''
+description: 'Une brève description du questionnaire que vous souhaitez ajouter, il peut s’agir d’un paragraphe ou d’une seule phrase.'
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

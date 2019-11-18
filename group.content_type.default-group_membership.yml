@@ -1,0 +1,17 @@
+uuid: dc5e7903-7f51-4b67-bd52-cfb35570ec2f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.default
+  module:
+    - user
+id: default-group_membership
+label: 'default: Adhésion au groupe'
+description: 'Ajoute des utilisateurs aux groupes en tant que membres.'
+group_type: default
+content_plugin: group_membership
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: true

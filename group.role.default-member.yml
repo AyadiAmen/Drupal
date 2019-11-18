@@ -1,0 +1,17 @@
+uuid: 8c13afe8-f217-4809-be83-3486a1deff4f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.default
+id: default-member
+label: Membre
+weight: -100
+internal: true
+audience: member
+group_type: default
+permissions_ui: true
+permissions:
+  - 'view group_node:contenu entity'
+  - 'view group_node:questionnaire entity'
+  - 'view group'

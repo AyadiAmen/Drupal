@@ -1,0 +1,14 @@
+uuid: 61a5a294-12d0-455e-bc73-79e99aaee414
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.restaurant
+id: restaurant-member
+label: Membre
+weight: -100
+internal: true
+audience: member
+group_type: restaurant
+permissions_ui: true
+permissions: {  }

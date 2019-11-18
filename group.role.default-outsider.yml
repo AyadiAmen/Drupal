@@ -1,0 +1,14 @@
+uuid: a3b81b83-1aeb-48f9-90e0-bed198f9be51
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.default
+id: default-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: default
+permissions_ui: true
+permissions: {  }

@@ -1,0 +1,16 @@
+uuid: 9babc36e-a355-4dec-a482-c94a4b0e279c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.club_bleu
+id: club_bleu-member
+label: Membre
+weight: -100
+internal: true
+audience: member
+group_type: club_bleu
+permissions_ui: true
+permissions:
+  - 'view group'
+  - 'view group_membership content'

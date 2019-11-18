@@ -1,0 +1,48 @@
+uuid: 590a2031-3d5b-4886-943d-6595d92aadbb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.group_content.group_content_type_f5f59fb29a728.field_description
+    - group.content_type.group_content_type_f5f59fb29a728
+  module:
+    - path
+    - text
+id: group_content.group_content_type_f5f59fb29a728.default
+targetEntityType: group_content
+bundle: group_content_type_f5f59fb29a728
+mode: default
+content:
+  entity_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  field_description:
+    weight: 31
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  uid: true

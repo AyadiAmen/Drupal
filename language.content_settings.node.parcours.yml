@@ -1,0 +1,11 @@
+uuid: c4fe97c9-671c-4076-8ecf-ed4831eeb0bd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.parcours
+id: node.parcours
+target_entity_type_id: node
+target_bundle: parcours
+default_langcode: site_default
+language_alterable: false

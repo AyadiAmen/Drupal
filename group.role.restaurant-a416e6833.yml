@@ -1,0 +1,17 @@
+uuid: cb4e3b7a-12f7-4f22-aedf-2dccefb75bd2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - group.type.restaurant
+  enforced:
+    config:
+      - user.role.administrator
+id: restaurant-a416e6833
+label: Administrateur
+weight: 2
+internal: true
+audience: outsider
+group_type: restaurant
+permissions_ui: false
+permissions: {  }
