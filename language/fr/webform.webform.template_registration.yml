@@ -1,4 +1,0 @@
-title: Inscription
-handlers:
-  email_notification:
-    label: 'Notification par courriel'

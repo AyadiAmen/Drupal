@@ -1,9 +1,0 @@
-title: Feedback
-description: 'Een standaard feedback-template.'
-settings:
-  confirmation_message: 'Bedankt voor uw feedback.'
-handlers:
-  email_confirmation:
-    label: E-mailbevestiging
-  email_notification:
-    label: E-mailmelding

@@ -1,5 +1,0 @@
-title: Gebruikersprofiel
-description: 'Een gebruikersprofielformulier-template.'
-handlers:
-  email_notification:
-    label: E-mailnotificatie

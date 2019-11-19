@@ -1,4 +1,0 @@
-title: 'S''abonner'
-handlers:
-  email_notification:
-    label: 'Notification par courriel'
