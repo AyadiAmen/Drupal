@@ -1,0 +1,5 @@
+settings:
+  confirmation_message: 'Bedankt voor uw sollicitatie.'
+handlers:
+  email_notification:
+    label: E-mailnotificatie

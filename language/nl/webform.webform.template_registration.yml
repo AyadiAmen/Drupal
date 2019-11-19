@@ -1,0 +1,7 @@
+title: Inschrijving
+description: 'Een registratieformulier-template.'
+settings:
+  confirmation_message: 'Bedankt voor uw registratie.'
+handlers:
+  email_notification:
+    label: E-mailnotificatie

@@ -1,0 +1,6 @@
+title: Abonneer
+settings:
+  confirmation_message: 'Bedankt voor het abonneren.'
+handlers:
+  email_notification:
+    label: E-mailnotificatie
